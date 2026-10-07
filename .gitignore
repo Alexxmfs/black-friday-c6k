@@ -1,0 +1,7 @@
+__pycache__/
+# Suas chaves (WhatsApp/Telegram/ntfy) — na nuvem elas ficam nos Secrets do GitHub
+notificacoes_config.json
+backup_original_*/
+historico/monitor.log*
+historico/precos.json
+historico/precos_exportado.csv

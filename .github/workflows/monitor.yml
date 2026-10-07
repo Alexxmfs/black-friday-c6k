@@ -1,0 +1,62 @@
+# Roda o monitor de preços na nuvem do GitHub, de graça — o PC pode ficar desligado.
+# Os horários do "cron" são em UTC (Brasília = UTC-3).
+name: Monitor TV TCL C6K
+
+on:
+  schedule:
+    - cron: "17 * * 10,11 *"         # de hora em hora em outubro e novembro
+    - cron: "2,32,47 * 20-30 11 *"   # semana da Black Friday (20 a 30/11): +3 por hora = a cada 15 min
+    - cron: "2,17,32,47 * 1 12 *"    # 01/12, último dia: a cada 15 min
+  workflow_dispatch:                 # botão "Run workflow" para rodar na hora
+    inputs:
+      testar_notificacoes:
+        description: "Mandar uma mensagem de teste para o celular"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write                    # para salvar o histórico de preços no repositório
+
+concurrency:
+  group: monitor-precos              # nunca roda duas verificações ao mesmo tempo
+  cancel-in-progress: false
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: America/Sao_Paulo            # datas e horários do Brasil
+      MONITOR_SEM_NAVEGADOR: "1"       # a Amazon bloqueia servidores; o Zoom traz o preço dela
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      WHATSAPP_TELEFONE: ${{ secrets.WHATSAPP_TELEFONE }}
+      WHATSAPP_APIKEY: ${{ secrets.WHATSAPP_APIKEY }}
+      NTFY_TOPICO: ${{ secrets.NTFY_TOPICO }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Instalar dependências
+        run: pip install requests rich
+
+      - name: Mensagem de teste
+        if: ${{ inputs.testar_notificacoes }}
+        run: python monitor_precos.py --testar-notificacoes
+
+      - name: Verificar preços
+        run: python monitor_precos.py --nuvem
+
+      - name: Salvar histórico
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add historico/precos_cartao.json historico/estado_alertas.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Histórico de preços"
+            git pull --rebase
+            git push
+          fi
