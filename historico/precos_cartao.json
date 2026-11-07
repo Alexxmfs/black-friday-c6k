@@ -14121,6 +14121,97 @@
         "vendedor": "Magalu",
         "tamanho": "55",
         "timestamp": "2026-11-06T20:08:28.808840"
+      },
+      {
+        "site": "Amazon",
+        "via": "Zoom",
+        "nome_produto": "Smart TV TCL 55 Polegadas QD-Mini LED 4K C6K WiFi Bluetooth Google TV 4 HDMI 144Hz HDR10+ 55C6K",
+        "preco": 3089.0,
+        "preco_pix": 3089.0,
+        "parcelas": null,
+        "valor_parcela": null,
+        "url": "https://www.zoom.com.br/tv/smart-tv-mini-led-55-tcl-4k-55c6k",
+        "vendedor": "Amazon",
+        "tamanho": "55",
+        "timestamp": "2026-11-06T23:48:16.125195"
+      },
+      {
+        "site": "Fast Shop",
+        "via": "Zoom",
+        "nome_produto": "Smart TV 4K TCL QD-Mini LED 55” Polegadas com HDMI 2.1, Dolby Vision, Subwoofer, 144Hz VRR e Wi-Fi - 55C6K",
+        "preco": 3149.0,
+        "preco_pix": 3149.0,
+        "parcelas": null,
+        "valor_parcela": null,
+        "url": "https://www.zoom.com.br/tv/smart-tv-mini-led-55-tcl-4k-55c6k",
+        "vendedor": "Fast Shop",
+        "tamanho": "55",
+        "timestamp": "2026-11-06T23:48:16.125195"
+      },
+      {
+        "site": "Magazine Luiza",
+        "via": "Zoom",
+        "nome_produto": "Smart TV TCL 55 Polegadas QD-Mini LED 4K C6K WiFi Bluetooth Google TV ",
+        "preco": 3899.0,
+        "preco_pix": 3626.07,
+        "parcelas": 10,
+        "valor_parcela": 389.9,
+        "url": "https://www.zoom.com.br/tv/smart-tv-mini-led-55-tcl-4k-55c6k",
+        "vendedor": "Magazine Luiza",
+        "tamanho": "55",
+        "timestamp": "2026-11-06T23:48:16.125195"
+      },
+      {
+        "site": "Americanas",
+        "via": "Zoom",
+        "nome_produto": "Smart TV TCL 55 AI, 4K UHD, QLED Mini LED, Android TV - 55C6K",
+        "preco": 4031.36,
+        "preco_pix": 3628.26,
+        "parcelas": 8,
+        "valor_parcela": 503.92,
+        "url": "https://www.zoom.com.br/tv/smart-tv-mini-led-55-tcl-4k-55c6k",
+        "vendedor": "Americanas",
+        "tamanho": "55",
+        "timestamp": "2026-11-06T23:48:16.125195"
+      },
+      {
+        "site": "Magazine Luiza",
+        "via": "Zoom",
+        "nome_produto": "Smart TV TCL 55 AI, 4K UHD, QLED Mini LED, Android TV - 55C6K, 55\"",
+        "preco": 3873.3,
+        "preco_pix": 3679.64,
+        "parcelas": 10,
+        "valor_parcela": 387.33,
+        "url": "https://www.zoom.com.br/tv/smart-tv-mini-led-55-tcl-4k-55c6k",
+        "vendedor": "Magazine Luiza",
+        "tamanho": "55",
+        "timestamp": "2026-11-06T23:48:16.125195"
+      },
+      {
+        "site": "KaBuM!",
+        "via": "",
+        "nome_produto": "Smart TV TCL 55 Polegadas QD-Mini LED 4K C6K WiFi Bluetooth Google TV 4 HDMI 144Hz HDR10+ 55C6K",
+        "preco": 3221.11,
+        "preco_pix": 2899.0,
+        "parcelas": 10,
+        "valor_parcela": 322.11,
+        "url": "https://www.kabum.com.br/produto/911482/smart-tv-4k-tcl-qd-mini-led-55-com-hdmi-2-1-dolby-vision-iq-subwoofer-144hz-vrr-e-wi-fi-55c6k-bivolt",
+        "vendedor": "FAST SHOP",
+        "tamanho": "55",
+        "timestamp": "2026-11-06T23:48:16.125195"
+      },
+      {
+        "site": "KaBuM!",
+        "via": "",
+        "nome_produto": "Smart TV 55\" TCL 4K UHD MiniLED 55C6K 120Hz Google TV AiPQ Google Assistente 4 HDMI 2 USB",
+        "preco": 3699.0,
+        "preco_pix": 3699.0,
+        "parcelas": 10,
+        "valor_parcela": 369.9,
+        "url": "https://www.kabum.com.br/produto/938048/smart-tv-55-tcl-4k-uhd-miniled-55c6k-120hz-google-tv-aipq-google-assistente-4-hdmi-2-usb",
+        "vendedor": "Magalu",
+        "tamanho": "55",
+        "timestamp": "2026-11-06T23:48:16.125195"
       }
     ]
   },
@@ -29104,6 +29195,97 @@
         "vendedor": "Magalu",
         "tamanho": "65",
         "timestamp": "2026-11-06T20:08:28.834885"
+      },
+      {
+        "site": "Fast Shop",
+        "via": "Zoom",
+        "nome_produto": "Smart TV 4K TCL QD-Mini LED 65” Polegadas com HDMI 2.1, Dolby Vision, Subwoofer, 144Hz VRR e Wi-Fi - 65C6K",
+        "preco": 3999.0,
+        "preco_pix": 3999.0,
+        "parcelas": null,
+        "valor_parcela": null,
+        "url": "https://www.zoom.com.br/tv/smart-tv-qd-mini-led-65-tcl-4k-65c6k",
+        "vendedor": "Fast Shop",
+        "tamanho": "65",
+        "timestamp": "2026-11-06T23:48:16.157987"
+      },
+      {
+        "site": "Magazine Luiza",
+        "via": "Zoom",
+        "nome_produto": "Smart TV 4K TCL QD-Mini LED 65 Polegadas com HDMI 2.1, Dolby Vision, S",
+        "preco": 4398.9,
+        "preco_pix": 4046.99,
+        "parcelas": 10,
+        "valor_parcela": 439.89,
+        "url": "https://www.zoom.com.br/tv/smart-tv-qd-mini-led-65-tcl-4k-65c6k",
+        "vendedor": "Magazine Luiza",
+        "tamanho": "65",
+        "timestamp": "2026-11-06T23:48:16.157987"
+      },
+      {
+        "site": "Fast Shop",
+        "via": "Zoom",
+        "nome_produto": "Smart TV 65” TCL 65C6K 4K QD-Mini Led 144Hz com Sistema Operacional Google TV",
+        "preco": 4130.62,
+        "preco_pix": 4130.62,
+        "parcelas": null,
+        "valor_parcela": null,
+        "url": "https://www.zoom.com.br/tv/smart-tv-qd-mini-led-65-tcl-4k-65c6k",
+        "vendedor": "Fast Shop",
+        "tamanho": "65",
+        "timestamp": "2026-11-06T23:48:16.157987"
+      },
+      {
+        "site": "Webcontinental",
+        "via": "Zoom",
+        "nome_produto": "Smart TV TCL 65C6K 65 Polegadas 4K Mini LED QLED Preto com Android TV Dolby Vision Dolby Atmos Bivolt",
+        "preco": 4370.96,
+        "preco_pix": 4185.0,
+        "parcelas": 8,
+        "valor_parcela": 546.37,
+        "url": "https://www.zoom.com.br/tv/smart-tv-qd-mini-led-65-tcl-4k-65c6k",
+        "vendedor": "Webcontinental",
+        "tamanho": "65",
+        "timestamp": "2026-11-06T23:48:16.157987"
+      },
+      {
+        "site": "Americanas",
+        "via": "Zoom",
+        "nome_produto": "Smart TV TCL 65C6K 65 4K Mini LED Android TV Semp Tcl",
+        "preco": 4742.96,
+        "preco_pix": 4268.7,
+        "parcelas": 8,
+        "valor_parcela": 592.87,
+        "url": "https://www.zoom.com.br/tv/smart-tv-qd-mini-led-65-tcl-4k-65c6k",
+        "vendedor": "Americanas",
+        "tamanho": "65",
+        "timestamp": "2026-11-06T23:48:16.157987"
+      },
+      {
+        "site": "KaBuM!",
+        "via": "",
+        "nome_produto": "Smart TV TCL 65 Polegadas QD-Mini LED 4K C6K WiFi Bluetooth Google TV 4 HDMI 144Hz HDR10+ 65C6K",
+        "preco": 4499.0,
+        "preco_pix": 4499.0,
+        "parcelas": 10,
+        "valor_parcela": 449.9,
+        "url": "https://www.kabum.com.br/produto/911480/smart-tv-4k-tcl-qd-mini-led-65-com-hdmi-2-1-dolby-vision-iq-subwoofer-144hz-vrr-e-wi-fi-65c6k-bivolt",
+        "vendedor": "FAST SHOP",
+        "tamanho": "65",
+        "timestamp": "2026-11-06T23:48:16.157987"
+      },
+      {
+        "site": "KaBuM!",
+        "via": "",
+        "nome_produto": "Smart TV  65\" TCL 4K UHD MiniLED 65C6K 120Hz Google TV AiPQ Google Assistente 4 HDMI 2 USB",
+        "preco": 4799.0,
+        "preco_pix": 4799.0,
+        "parcelas": 10,
+        "valor_parcela": 479.9,
+        "url": "https://www.kabum.com.br/produto/938060/smart-tv-65-tcl-4k-uhd-miniled-65c6k-120hz-google-tv-aipq-google-assistente-4-hdmi-2-usb",
+        "vendedor": "Magalu",
+        "tamanho": "65",
+        "timestamp": "2026-11-06T23:48:16.157987"
       }
     ]
   },
@@ -29280,6 +29462,19 @@
         "vendedor": "Magazine Luiza",
         "tamanho": "50",
         "timestamp": "2026-11-06T20:08:28.782007"
+      },
+      {
+        "site": "Magazine Luiza",
+        "via": "Zoom",
+        "nome_produto": "Smart TV 50\" TCL 4K UHD MiniLED C6KS 50C6KS Google TV 2025, 50\"",
+        "preco": 2999.0,
+        "preco_pix": 2849.05,
+        "parcelas": 10,
+        "valor_parcela": 299.9,
+        "url": "https://www.zoom.com.br/tv/smart-tv-qd-mini-led-50-tcl-4k-c6ks",
+        "vendedor": "Magazine Luiza",
+        "tamanho": "50",
+        "timestamp": "2026-11-06T23:48:16.092664"
       }
     ]
   }
